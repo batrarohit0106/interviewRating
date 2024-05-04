@@ -39,7 +39,7 @@ if(!user){
     <Card style={styles.formCard}>
       <Title level={4}>
         <span style={styles.formTitle}>
-          Welcome to The Bibliophile's Corner!
+          Welcome to The InterviewRating System !
         </span><br/>
         Please <Link to="/authform">login</Link> or {" "}
         <Link to="/authform">register</Link> to add a rating.
