@@ -32,7 +32,7 @@ function AuthForm() {
             style={styles.card}
             title={
                 <Title level={4} style={{textAlign: "center"}}>
-                    { isLogin ? "Login To" : "Join" } The Bibliophile's Corner
+                    { isLogin ? "Login To" : "Join" } The Interview Rating System
                 </Title>
             }>
             <Form
