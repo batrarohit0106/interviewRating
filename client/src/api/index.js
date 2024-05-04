@@ -3,7 +3,7 @@ import axios from 'axios';
 const storedProfile = localStorage.getItem("profile");
 const profile = storedProfile ? JSON.parse(storedProfile) : null;
 const api = axios.create({
-    baseURL: "http://localhost:5001",
+    baseURL: "https://interviewrating-2.onrender.com",
     headers: {
         'Content-Type': 'application/json',
         'Authorization': profile ? `Bearer ${profile.token}` : ''
